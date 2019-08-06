@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar () {
   return (
     <nav>
       <h1>Google Books Search!</h1>
-      <h4>For Search</h4>
-      <h4>For Saved</h4>
+      <Link to='/'>Search For Books</Link>
+      <Link to='/save'>Saved Books</Link>
     </nav>
   )
 }
