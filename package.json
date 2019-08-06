@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/EricC44/GooooogleBooks#readme",
   "dependencies": {
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.0.0",
+    "react-router-dom": "^5.0.1"
   }
 }
